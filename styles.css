@@ -5,7 +5,6 @@
 }
 
 
-
 nav{
 	display: flex;
 	background-color: #F0B429;
@@ -140,3 +139,37 @@ nav > div:hover a{
 
 
 /*Fin Estilos de Inicio*/
+
+/*Estilos pagina conceptos*/
+
+.conceptos{
+	max-width: 40%;
+}
+
+
+.conceptos div p{
+	margin:20px 0;
+	line-height: 1.5;
+}
+
+.conceptos img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+.boton-aprender{
+	display: block;
+	text-align: center
+	margin-top:20px;
+	padding: 20px;
+	background-color: #333333;
+	border: 1px solid #F0B429;
+	color: white;
+	text-align: center;
+}
+
+
+
+/*Fin estilos pagina conceptos*/
