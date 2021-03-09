@@ -170,6 +170,44 @@ nav > div:hover a{
 	text-align: center;
 }
 
+.iframe-games{
+	width: 800px;
+	height: 800px;
+}
+
+.iframe-videos{
+	width:560; 
+	height:315;
+}
 
 
 /*Fin estilos pagina conceptos*/
+
+@media only screen and (max-width: 600px) {
+
+	nav{
+		display: flex;
+		flex-direction: column;
+	}
+
+  .container-content{
+
+  	display: flex;
+  	flex-direction: column;
+
+  }
+
+  .container-content > div{
+  	max-width: 100%;
+  }
+
+  .container-content  .iframe-games{
+  	width: 300px;
+  	height: 700px;
+  }
+
+  .container-content .iframe-videos{
+  	width: 100%;
+  	height: auto;
+  }
+}
